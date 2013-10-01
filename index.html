@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Light Blue - Admin Template</title>
+    <title>DarkShield.IO - Dashboard</title>
     <link href="css/application.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 </head>
 <body class="background-dark">
 <div class="logo">
-    <h4><a href="index.html">Light <strong>Blue</strong></a></h4>
+    <h4><a href="index.html">Dark<strong>Shield</strong>.IO</a></h4>
 </div>
 <nav id="sidebar" class="sidebar nav-collapse collapse">
     <ul id="side-nav" class="side-nav">
@@ -20,66 +20,37 @@
         </li>
         <li class="panel">
             <a class="accordion-toggle collapsed" data-toggle="collapse"
-               data-parent="#side-nav" href="#forms-collapse"><i class="icon-edit"></i> <span class="name">Forms</span></a>
+               data-parent="#side-nav" href="#forms-collapse"><i class="icon-edit"></i> <span class="name">Attackers</span></a>
             <ul id="forms-collapse" class="panel-collapse collapse">
-                <li><a href="form_account.html">Account</a></li>
-                <li><a href="form_article.html">Article</a></li>
-                <li><a href="form_elements.html">Elements</a></li>
-                <li><a href="form_validation.html">Validation</a></li>
-                <li><a href="form_wizard.html">Wizard</a></li>
+                <li><a href="#">Report Cards</a></li>
+                <li><a href="#">Response</a></li>
+                <li><a href="#">History</a></li>
+            </ul>
+        </li>
+        <li class="panel">
+            <a class="accordion-toggle collapsed" data-toggle="collapse"
+               data-parent="#side-nav" href="#ui-collapse"><i class="icon-magic"></i> <span class="name">Sites</span></a>
+            <ul id="ui-collapse" class="panel-collapse collapse">
+                <li><a href="#">Attacks</a></li>
+                <li><a href="component_maps.html">Traffic</a></li>
+                <li><a href="#">Response Report</a></li>
             </ul>
         </li>
         <li class="panel">
             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#side-nav" href="#stats-collapse"><i class="icon-bar-chart"></i> <span class="name">Statistics</span></a>
             <ul id="stats-collapse" class="panel-collapse collapse">
                 <li><a href="stat_statistics.html">Stats</a></li>
-                <li><a href="stat_charts.html">Charts</a></li>
-                <li><a href="stat_realtime.html">Realtime</a></li>
+                <li><a href="stat_charts.html">Visualization</a></li>
+                <li><a href="stat_realtime.html">Real-Time</a></li>
             </ul>
         </li>
         <li class="panel">
             <a class="accordion-toggle collapsed" data-toggle="collapse"
-               data-parent="#side-nav" href="#ui-collapse"><i class="icon-magic"></i> <span class="name">User Interface</span></a>
-            <ul id="ui-collapse" class="panel-collapse collapse">
-                <li><a href="ui_buttons.html">Buttons</a></li>
-                <li><a href="ui_dialogs.html">Dialogs</a></li>
-                <li><a href="ui_icons.html">Icons</a></li>
-                <li><a href="ui_tabs.html">Tabs</a></li>
-                <li><a href="ui_accordion.html">Accordion</a></li>
-            </ul>
-        </li>
-        <li class="panel">
-            <a class="accordion-toggle collapsed" data-toggle="collapse"
-               data-parent="#side-nav" href="#components-collapse"><i class="icon-bookmark-empty"></i> <span class="name">Components</span></a>
+               data-parent="#side-nav" href="#components-collapse"><i class="icon-bookmark-empty"></i> <span class="name">Config</span></a>
             <ul id="components-collapse" class="panel-collapse collapse">
-                <li><a href="component_calendar.html">Calendar</a></li>
-                <li><a href="component_maps.html">Maps</a></li>
-                <li><a href="component_gallery.html">Gallery</a></li>
-                <li><a href="component_fileupload.html">Fileupload</a></li>
-            </ul>
-        </li>
-        <li class="panel">
-            <a class="accordion-toggle collapsed" data-toggle="collapse"
-               data-parent="#side-nav" href="#tables-collapse"><i class="icon-table"></i> <span class="name">Tables</span></a>
-            <ul id="tables-collapse" class="panel-collapse collapse">
-                <li><a href="tables_static.html">Static</a></li>
-                <li><a href="tables_dynamic.html">Dynamic</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="grid.html"><i class="icon-reorder"></i> <span class="name">Grid</span></a>
-        </li>
-        <li class="panel">
-            <a class="accordion-toggle collapsed" data-toggle="collapse"
-               data-parent="#side-nav" href="#special-collapse"><i class="icon-asterisk"></i> <span class="name">Special</span></a>
-            <ul id="special-collapse" class="panel-collapse collapse">
-                <li><a href="special_search.html">Search</a></li>
-                <li><a href="special_invoice.html">Invoice</a></li>
-                <li><a href="special_inbox.html">Inbox <span class="label label-important">3</span></a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="special_404.html">404</a></li>
-                <li><a href="landing.html">Landing</a></li>
-                <li><a href="white/index.html">White <i class="icon-external-link-sign"></i></a></li>
+                <li><a href="#">Site Preferences</a></li>
+                <li><a href="#">Organization Policies</a></li>
+                <li><a href="#">DNS Settings</a></li>
             </ul>
         </li>
         <li class="visible-xs">
@@ -104,118 +75,6 @@
                             <i class="icon-search"></i>
                         </a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" title="Messages" id="messages"
-                           class="dropdown-toggle"
-                           data-toggle="dropdown">
-                            <i class="icon-comments"></i>
-                        </a>
-                        <ul id="messages-menu" class="dropdown-menu messages" role="menu">
-                            <li role="presentation">
-                                <a href="#" class="message">
-                                    <img src="img/1.jpg" alt="">
-                                    <div class="details">
-                                        <div class="sender">Jane Hew</div>
-                                        <div class="text">
-                                            Hey, John! How is it going? ...
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#" class="message">
-                                    <img src="img/2.jpg" alt="">
-                                    <div class="details">
-                                        <div class="sender">Alies Rumiancaŭ</div>
-                                        <div class="text">
-                                            I'll definitely buy this template
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#" class="message">
-                                    <img src="img/3.jpg" alt="">
-                                    <div class="details">
-                                        <div class="sender">Michał Rumiancaŭ</div>
-                                        <div class="text">
-                                            Is it really Lore ipsum? Lore ...
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#" class="text-align-center see-all">
-                                    See all messages <i class="icon-arrow-right"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" title="8 support tickets"
-                           class="dropdown-toggle"
-                           data-toggle="dropdown">
-                            <i class="icon-group"></i>
-                            <span class="count">8</span>
-                        </a>
-                        <ul id="support-menu" class="dropdown-menu support" role="menu">
-                            <li role="presentation">
-                                <a href="#" class="support-ticket">
-                                    <div class="picture">
-                                        <span class="label label-important"><i class="icon-bell-alt"></i></span>
-                                    </div>
-                                    <div class="details">
-                                        Check out this awesome ticket
-                                    </div>
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#" class="support-ticket">
-                                    <div class="picture">
-                                        <span class="label label-warning"><i class="icon-question-sign"></i></span>
-                                    </div>
-                                    <div class="details">
-                                        "What is the best way to get ...
-                                    </div>
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#" class="support-ticket">
-                                    <div class="picture">
-                                        <span class="label label-success"><i class="icon-tag"></i></span>
-                                    </div>
-                                    <div class="details">
-                                        This is just a simple notification
-                                    </div>
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#" class="support-ticket">
-                                    <div class="picture">
-                                        <span class="label label-info"><i class="icon-info-sign"></i></span>
-                                    </div>
-                                    <div class="details">
-                                        12 new orders has arrived today
-                                    </div>
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#" class="support-ticket">
-                                    <div class="picture">
-                                        <span class="label label-important"><i class="icon-plus"></i></span>
-                                    </div>
-                                    <div class="details">
-                                        One more thing that just happened
-                                    </div>
-                                </a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#" class="text-align-center see-all">
-                                    See all tickets <i class="icon-arrow-right"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
                     <li class="divider"></li>
                     <li class="hidden-xs">
                         <a href="#" id="settings"
@@ -234,24 +93,24 @@
                         <ul id="account-menu" class="dropdown-menu account" role="menu">
                             <li role="presentation" class="account-picture">
                                 <img src="img/2.jpg" alt="">
-                                Philip Daineka
+                                Zach Jones
                             </li>
                             <li role="presentation">
                                 <a href="form_account.html" class="link">
                                     <i class="icon-user"></i>
-                                    Profile
+                                    User Info
                                 </a>
                             </li>
                             <li role="presentation">
-                                <a href="component_calendar.html" class="link">
+                                <a href="#" class="link">
                                     <i class="icon-calendar"></i>
-                                    Calendar
+                                    Account Settings
                                 </a>
                             </li>
                             <li role="presentation">
                                 <a href="#" class="link">
                                     <i class="icon-inbox"></i>
-                                    Inbox
+                                    Organization Settings
                                 </a>
                             </li>
                         </ul>
@@ -265,7 +124,7 @@
                             <i class="icon-reorder"></i>
                         </a>
                     </li>
-                    <li class="hidden-xs"><a href="login.html"><i class="icon-signout"></i></a></li>
+                    <li class="hidden-xs"><a href="/logout"><i class="icon-signout"></i></a></li>
                 </ul>
                 <form id="search-form" class="navbar-form pull-right" role="search">
                     <input type="search" class="search-query" placeholder="Search...">
@@ -273,7 +132,7 @@
                 <div class="notifications pull-right">
                     <div class="alert pull-right">
                         <a href="#" class="close" data-dismiss="alert">&times;</a>
-                        <i class="icon-info-sign"></i> Check out Light Blue <a id="notification-link" href="#">settings</a> on the right!
+                        <i class="icon-info-sign"></i> Welcome to DarkShield!
                     </div>
                 </div>
         </div>
@@ -281,7 +140,7 @@
     <div class="content container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="page-title">Dashboard <small>Statistics and more</small></h2>
+                <h2 class="page-title">Dashboard <small>Overview</small></h2>
             </div>
         </div>
         <div class="row">
@@ -290,9 +149,9 @@
                     <header>
                         <h4>
                             <i class="icon-group"></i>
-                            Visits
+                            Traffic
                             <small>
-                                Based on a three months data
+                                Based on last 30 days of data
                             </small>
                         </h4>
                     </header>
@@ -303,20 +162,20 @@
                         <div class="visits-info well well-sm">
                             <div class="row">
                                 <div class="col-sm-3 col-xs-6">
-                                    <div class="key"><i class="eicon-users"></i> Total Traffic</div>
+                                    <div class="key"><i class="eicon-users"></i> Total Visitors</div>
                                     <div class="value">24 541 <i class="icon-caret-up color-green"></i></div>
                                 </div>
                                 <div class="col-sm-3 col-xs-6">
-                                    <div class="key"><i class="eicon-user"></i> Unique Visits</div>
+                                    <div class="key"><i class="eicon-user"></i> Unique Attackers</div>
                                     <div class="value">14 778 <i class="icon-caret-down color-red"></i></div>
                                 </div>
                                 <div class="col-sm-3 col-xs-6">
-                                    <div class="key"><i class="icon-plus-sign-alt"></i> Revenue</div>
-                                    <div class="value">$3 583.18 <i class="icon-caret-up color-green"></i></div>
+                                    <div class="key"><i class="icon-plus-sign-alt"></i> Attacker %</div>
+                                    <div class="value">3% <i class="icon-caret-up color-green"></i></div>
                                 </div>
                                 <div class="col-sm-3 col-xs-6">
-                                    <div class="key"><i class="icon-user"></i> Total Sales</div>
-                                    <div class="value">$59 871.12 <i class="icon-caret-down color-red"></i></div>
+                                    <div class="key"><i class="icon-user"></i> Attack %</div>
+                                    <div class="value">12% <i class="icon-caret-down color-red"></i></div>
                                 </div>
                             </div>
                         </div>
@@ -326,7 +185,7 @@
                     <header>
                         <h4>
                             <i class="icon-shopping-cart"></i>
-                            Traffic Sources
+                            Top Attackers
                             <small>
                                 One month tracking
                             </small>
@@ -336,17 +195,17 @@
                         <table class="table table-striped no-margin sources-table">
                             <thead>
                             <tr>
-                                <th class="source-col-header">Source</th>
-                                <th>Amount</th>
-                                <th>Change</th>
-                                <th class="hidden-xs">Percent.,%</th>
-                                <th>Target</th>
+                                <th class="source-col-header">Attacker</th>
+                                <th># of Attacks</th>
+                                <th>Last Seen</th>
+                                <th class="hidden-xs">Favorite Attack Type</th>
+                                <th>Top Target</th>
                                 <th class="chart-col-header hidden-xs">Trend</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td><span class="label label-important">Direct</span></td>
+                                <td><span class="label label-important">Bob</span></td>
                                 <td>713</td>
                                 <td><strong class="color-green">+53</strong></td>
                                 <td class="hidden-xs">+12</td>
@@ -356,7 +215,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><span class="label label-warning">Refer</span></td>
+                                <td><span class="label label-warning">Alice</span></td>
                                 <td>562</td>
                                 <td><strong>+84</strong></td>
                                 <td class="hidden-xs">+64</td>
@@ -366,7 +225,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><span class="label label-success">Social</span></td>
+                                <td><span class="label label-success">Scripty</span></td>
                                 <td>148</td>
                                 <td><strong class="color-red">-12</strong></td>
                                 <td class="hidden-xs">+3</td>
@@ -376,7 +235,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><span class="label label-info">Search</span></td>
+                                <td><span class="label label-info">Eve</span></td>
                                 <td>653</td>
                                 <td><strong class="color-green">+23</strong></td>
                                 <td class="hidden-xs">+43</td>
@@ -386,7 +245,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><span class="label label-inverse">Internal</span></td>
+                                <td><span class="label label-inverse">Smash</span></td>
                                 <td>976</td>
                                 <td><strong>+101</strong></td>
                                 <td class="hidden-xs">-7</td>
@@ -399,116 +258,81 @@
                         </table>
                     </div>
                 </section>
-                <section class="widget large">
+                <section class="widget">
                     <header>
                         <h4>
-                            <i class="eicon-chat"></i>
-                            Chat
+                            <i class="icon-shopping-cart"></i>
+                            Top Attack Types
+                            <small>
+                                One month tracking
+                            </small>
                         </h4>
                     </header>
                     <div class="body">
-                        <div id="chat" class="chat">
-                            <div id="chat-messages" class="chat-messages">
-                                <div class="chat-message">
-                                    <div class="sender pull-left">
-                                        <div class="icon">
-                                            <img src="img/2.jpg" class="img-circle" alt="">
-                                        </div>
-                                        <div class="time">
-                                            4 min
-                                        </div>
-                                    </div>
-                                    <div class="chat-message-body">
-                                        <span class="arrow"></span>
-                                        <div class="sender"><a href="#">Tikhon Laninga</a></div>
-                                        <div class="text">
-                                            Hey Sam, how is it going? But I must explain to you how all this mistaken
-                                            idea of denouncing of a pleasure and praising pain was born
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="chat-message">
-                                    <div class="sender pull-right">
-                                        <div class="icon">
-                                            <img src="img/1.jpg" class="img-circle" alt="">
-                                        </div>
-                                        <div class="time">
-                                            3 min
-                                        </div>
-                                    </div>
-                                    <div class="chat-message-body on-left">
-                                        <span class="arrow"></span>
-                                        <div class="sender"><a href="#">Cenhelm Houston</a></div>
-                                        <div class="text">
-                                            Pretty good. Doing my homework..  No one rejects, dislikes, or avoids
-                                            pleasure itself, because it is pleasure, but because
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="chat-message">
-                                    <div class="sender pull-left">
-                                        <div class="icon">
-                                            <img src="img/2.jpg" class="img-circle" alt="">
-                                        </div>
-                                        <div class="time">
-                                            2 min
-                                        </div>
-                                    </div>
-                                    <div class="chat-message-body">
-                                        <span class="arrow"></span>
-                                        <div class="sender"><a href="#">Tikhon Laninga</a></div>
-                                        <div class="text">
-                                            Any chance to go out? To take a trivial example, which of us ever undertakes
-                                            laborious physical exercise, except to obtain some advantage
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="chat-message">
-                                    <div class="sender pull-right">
-                                        <div class="icon">
-                                            <img src="img/1.jpg" class="img-circle" alt="">
-                                        </div>
-                                        <div class="time">
-                                            2 min
-                                        </div>
-                                    </div>
-                                    <div class="chat-message-body on-left">
-                                        <span class="arrow"></span>
-                                        <div class="sender"><a href="#">Cenhelm Houston</a></div>
-                                        <div class="text">
-                                            .. Maybe 40-50 mins. I don't know exactly. On the other hand, we denounce
-                                            with righteous indignation and dislike men who are so beguiled
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="chat-message">
-                                    <div class="sender pull-left">
-                                        <div class="icon">
-                                            <img src="img/2.jpg" class="img-circle" alt="">
-                                        </div>
-                                        <div class="time">
-                                            1 min
-                                        </div>
-                                    </div>
-                                    <div class="chat-message-body">
-                                        <span class="arrow"></span>
-                                        <div class="sender"><a href="#">Tikhon Laninga</a></div>
-                                        <div class="text">
-                                            Anyway sounds great! These cases are perfectly simple and easy to
-                                            distinguish.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <footer class="chat-footer row">
-                                <div class="col-xs-9">
-                                    <input id="new-message" type="text" class="form-control input-transparent" placeholder="Enter your message..">
-                                </div>
-                                <div class="col-xs-3">
-                                    <button type="button" id="new-message-btn" class="btn btn-transparent btn-block">Send</button>
-                                </div>
-                            </footer>
-                        </div>
+                        <table class="table table-striped no-margin sources-table">
+                            <thead>
+                            <tr>
+                                <th class="source-col-header">Attack Type</th>
+                                <th>Amount</th>
+                                <th>Change</th>
+                                <th class="hidden-xs">Percentage%</th>
+                                <th>Top Target</th>
+                                <th class="chart-col-header hidden-xs">Trend</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><span class="label label-important">XSS</span></td>
+                                <td>713</td>
+                                <td><strong class="color-green">+53</strong></td>
+                                <td class="hidden-xs">+12</td>
+                                <td>900</td>
+                                <td class="chart-cell hidden-xs">
+                                    <div id="direct-trend"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="label label-warning">SQLi</span></td>
+                                <td>562</td>
+                                <td><strong>+84</strong></td>
+                                <td class="hidden-xs">+64</td>
+                                <td>500</td>
+                                <td class="chart-cell hidden-xs">
+                                    <div id="refer-trend"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="label label-success">CSRF</span></td>
+                                <td>148</td>
+                                <td><strong class="color-red">-12</strong></td>
+                                <td class="hidden-xs">+3</td>
+                                <td>180</td>
+                                <td class="chart-cell hidden-xs">
+                                    <div id="social-trend"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="label label-info">Dir Traversal</span></td>
+                                <td>653</td>
+                                <td><strong class="color-green">+23</strong></td>
+                                <td class="hidden-xs">+43</td>
+                                <td>876</td>
+                                <td class="chart-cell hidden-xs">
+                                    <div id="search-trend"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="label label-inverse">Brute Force</span></td>
+                                <td>976</td>
+                                <td><strong>+101</strong></td>
+                                <td class="hidden-xs">-7</td>
+                                <td>844</td>
+                                <td class="chart-cell hidden-xs">
+                                    <div id="internal-trend"></div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </section>
             </div>
@@ -517,7 +341,7 @@
                     <header>
                         <h4>
                             <i class="eicon-share"></i>
-                            Feed
+                            Community Intelligence Feed
                         </h4>
                         <div class="actions">
                             <button class="btn btn-transparent btn-xs">Show All <i class="icon-arrow-down"></i></button>
@@ -623,201 +447,29 @@
                     <header>
                         <ul class="nav nav-tabs">
                             <li class="active">
-                                <a href="#stats" data-toggle="tab">Users</a>
+                                <a href="#stats" data-toggle="tab">FAQ</a>
                             </li>
                             <li>
-                                <a href="#report" data-toggle="tab">Favorites</a>
+                                <a href="#report" data-toggle="tab">Support</a>
                             </li>
                             <li>
-                                <a href="#dropdown1" data-toggle="tab">Commenters</a>
+                                <a href="#dropdown1" data-toggle="tab">Contact Us</a>
                             </li>
                         </ul>
                     </header>
                     <div class="body tab-content">
                         <div id="stats" class="tab-pane active clearfix">
-                            <h5 class="tab-header"><i class="icon-group"></i> Last logged-in users</h5>
-                            <ul class="users-list">
-                                <li>
-                                    <img src="img/1.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Finees Lund</a></div>
-                                        <div class="position">Product Designer</div>
-                                        <div class="time">Last logged-in: Mar 20, 18:46</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="img/3.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Erebus Novak</a></div>
-                                        <div class="position">Software Engineer</div>
-                                        <div class="time">Last logged-in: Mar 23, 9:02</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="img/2.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Leopoldo Reier</a></div>
-                                        <div class="position">Chief Officer</div>
-                                        <div class="time">Last logged-in: Jun 6, 15:34</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="img/13.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Frans Garey</a></div>
-                                        <div class="position">Financial Assistant</div>
-                                        <div class="time">Last logged-in: Jun 8, 17:20</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="img/14.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Jessica Johnsson</a></div>
-                                        <div class="position">Sales Manager</div>
-                                        <div class="time">Last logged-in: Jun 8, 9:13</div>
-                                    </div>
-                                </li>
-                            </ul>
+                        <h5 class="tab-header"><i class="icon-group"></i> Help</h5>
+
+                            FAQ
                         </div>
                         <div id="report" class="tab-pane">
-                            <h5 class="tab-header"><i class="icon-star"></i> Popular contacts</h5>
-                            <ul class="users-list user-list-no-hover">
-                                <li>
-                                    <img src="img/14.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Jessica Johnsson</a></div>
-                                        <div class="options">
-                                            <button class="btn btn-xs btn-success">
-                                                <i class="icon-phone"></i>
-                                                Call
-                                            </button>
-                                            <button class="btn btn-xs btn-warning">
-                                                <i class="icon-envelope-alt"></i>
-                                                Message
-                                            </button>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="img/13.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Frans Garey</a></div>
-                                        <div class="options">
-                                            <button class="btn btn-xs btn-success">
-                                                <i class="icon-phone"></i>
-                                                Call
-                                            </button>
-                                            <button class="btn btn-xs btn-warning">
-                                                <i class="icon-envelope-alt"></i>
-                                                Message
-                                            </button>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="img/3.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Erebus Novak</a></div>
-                                        <div class="options">
-                                            <button class="btn btn-xs btn-success">
-                                                <i class="icon-phone"></i>
-                                                Call
-                                            </button>
-                                            <button class="btn btn-xs btn-warning">
-                                                <i class="icon-envelope-alt"></i>
-                                                Message
-                                            </button>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="img/2.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Leopoldo Reier</a></div>
-                                        <div class="options">
-                                            <button class="btn btn-xs btn-success">
-                                                <i class="icon-phone"></i>
-                                                Call
-                                            </button>
-                                            <button class="btn btn-xs btn-warning">
-                                                <i class="icon-envelope-alt"></i>
-                                                Message
-                                            </button>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="img/1.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Finees Lund</a></div>
-                                        <div class="options">
-                                            <button class="btn btn-xs btn-success">
-                                                <i class="icon-phone"></i>
-                                                Call
-                                            </button>
-                                            <button class="btn btn-xs btn-warning">
-                                                <i class="icon-envelope-alt"></i>
-                                                Message
-                                            </button>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+                            <h5 class="tab-header"><i class="icon-star"></i> Portal</h5>
+                            Support
                         </div>
                         <div id="dropdown1" class="tab-pane">
-                            <h5 class="tab-header"><i class="icon-comments"></i> Top Commenters</h5>
-                            <ul class="users-list">
-                                <li>
-                                    <img src="img/13.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Frans Garey</a></div>
-                                        <div class="comment">
-                                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                                            sed quia
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="img/1.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Finees Lund</a></div>
-                                        <div class="comment">
-                                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                            eu fugiat.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="img/14.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Jessica Johnsson</a></div>
-                                        <div class="comment">
-                                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                            deserunt.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="img/3.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Erebus Novak</a></div>
-                                        <div class="comment">
-                                            Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium
-                                            doloremque.
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <img src="img/2.jpg" alt="" class="pull-left img-circle"/>
-                                    <div class="user-info">
-                                        <div class="name"><a href="#">Leopoldo Reier</a></div>
-                                        <div class="comment">
-                                            Laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis
-                                            et quasi.
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+                            <h5 class="tab-header"><i class="icon-comments"></i> Contact</h5>
+                            Contact Us
                         </div>
                     </div>
                 </section>
@@ -825,7 +477,7 @@
                     <header>
                         <h4>
                             <i class="icon-magnet"></i>
-                            Server Overview
+                            Integration Overview
                         </h4>
                     </header>
                     <div class="body">
